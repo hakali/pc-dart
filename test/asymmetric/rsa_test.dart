@@ -3,7 +3,7 @@
 library test.asymmetric.rsa_test;
 
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/asymmetric_block_cipher.dart';
 

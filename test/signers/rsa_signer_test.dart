@@ -2,7 +2,7 @@
 
 library test.paddings.rsa_signer_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/signer.dart';
 import '../test/src/helpers.dart';

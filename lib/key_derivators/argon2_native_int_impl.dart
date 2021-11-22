@@ -1,11 +1,11 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/digests/blake2b.dart';
-import 'package:pointycastle/src/impl/base_key_derivator.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/digests/blake2b.dart';
+import 'package:pointycastle_pc335/src/impl/base_key_derivator.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/utils.dart';
 
 import 'api.dart';
 

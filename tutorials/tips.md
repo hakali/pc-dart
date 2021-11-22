@@ -58,13 +58,13 @@ source code can be very useful.
 ### Navigating the API reference
 
 The [Pointy Castle API
-reference](https://pub.dev/documentation/pointycastle/latest/) can be
+reference](https://pub.dev/documentation/pointycastle_pc335/latest/) can be
 difficult to navigate. Each implementation class is in a separate
 library to improve the performance of loading (when used without the
 registry) and the library names are long.
 
 Try looking in the one of the combined libraries for classes:
 
-- [export](https://pub.dev/documentation/pointycastle/latest/export/export-library.html)
-- [api](https://pub.dev/documentation/pointycastle/latest/api/api-library.html)
-- [pointycastle](https://pub.dev/documentation/pointycastle/latest/pointycastle/pointycastle-library.html)
+- [export](https://pub.dev/documentation/pointycastle_pc335/latest/export/export-library.html)
+- [api](https://pub.dev/documentation/pointycastle_pc335/latest/api/api-library.html)
+- [pointycastle](https://pub.dev/documentation/pointycastle_pc335/latest/pointycastle_pc335/pointycastle-library.html)

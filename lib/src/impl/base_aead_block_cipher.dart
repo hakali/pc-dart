@@ -4,7 +4,7 @@ import 'dart:math' show min;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_pc335/api.dart';
 
 abstract class BaseAEADBlockCipher implements AEADBlockCipher {
   final BlockCipher _underlyingCipher;

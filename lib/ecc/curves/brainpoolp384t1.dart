@@ -2,10 +2,10 @@
 
 library impl.ec_domain_parameters.brainpoolp384t1;
 
-import 'package:pointycastle/ecc/api.dart';
-import 'package:pointycastle/ecc/ecc_base.dart';
-import 'package:pointycastle/src/ec_standard_curve_constructor.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/ecc/api.dart';
+import 'package:pointycastle_pc335/ecc/ecc_base.dart';
+import 'package:pointycastle_pc335/src/ec_standard_curve_constructor.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 // ignore: camel_case_types
 class ECCurve_brainpoolp384t1 extends ECDomainParametersImpl {

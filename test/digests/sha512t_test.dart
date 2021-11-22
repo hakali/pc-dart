@@ -2,7 +2,7 @@
 
 library test.digests.sha512t_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/digest.dart';
 

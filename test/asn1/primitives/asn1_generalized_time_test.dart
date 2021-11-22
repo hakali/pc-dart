@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/primitives/asn1_generalized_time.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_generalized_time.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -4,8 +4,8 @@ library impl.padded_block_cipher.padded_block_cipher_impl;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// The standard implementation of [PaddedBlockCipher].
 class PaddedBlockCipherImpl implements PaddedBlockCipher {

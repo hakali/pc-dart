@@ -2,7 +2,7 @@
 
 library test.impl_test;
 
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
 import 'package:test/test.dart';
 import 'test/runners/registry.dart';
 

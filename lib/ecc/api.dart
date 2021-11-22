@@ -4,8 +4,8 @@ library api.ecc;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// Standard ECC curve description
 abstract class ECDomainParameters {

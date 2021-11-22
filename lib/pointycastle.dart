@@ -10,6 +10,6 @@
 ///
 library pointycastle;
 
-export 'package:pointycastle/api.dart';
-export 'package:pointycastle/impl.dart';
-export 'package:pointycastle/asn1.dart';
+export 'package:pointycastle_pc335/api.dart';
+export 'package:pointycastle_pc335/impl.dart';
+export 'package:pointycastle_pc335/asn1.dart';

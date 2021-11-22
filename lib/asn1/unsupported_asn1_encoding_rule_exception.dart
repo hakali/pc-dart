@@ -1,4 +1,4 @@
-import 'package:pointycastle/asn1/asn1_encoding_rule.dart';
+import 'package:pointycastle_pc335/asn1/asn1_encoding_rule.dart';
 
 ///
 /// Exception that indicates that the given [ASN1EncodingRule] is not supported

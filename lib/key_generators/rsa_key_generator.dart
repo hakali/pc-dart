@@ -2,10 +2,10 @@
 
 library impl.key_generator.rsa_key_generator;
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/asymmetric/api.dart';
-import 'package:pointycastle/key_generators/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/asymmetric/api.dart';
+import 'package:pointycastle_pc335/key_generators/api.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 bool _testBit(BigInt i, int n) {
   return (i & (BigInt.one << n)) != BigInt.zero;

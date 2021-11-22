@@ -5,8 +5,8 @@ library test.key_generators.rsa_key_generator_test;
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
 import 'package:test/test.dart';
 
 import '../test/runners/key_generators.dart';

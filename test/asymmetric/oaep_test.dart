@@ -4,10 +4,10 @@ library test.asymmetric.oaep_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/impl/secure_random_base.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/src/impl/secure_random_base.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/utils.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

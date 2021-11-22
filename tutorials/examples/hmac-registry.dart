@@ -11,7 +11,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 Uint8List hmacSha256(Uint8List hmacKey, Uint8List data) {
   final hmac = Mac('SHA-256/HMAC')..init(KeyParameter(hmacKey));

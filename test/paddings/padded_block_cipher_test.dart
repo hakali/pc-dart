@@ -2,8 +2,8 @@
 
 library test.padded_block_cipher_test;
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

@@ -1,7 +1,7 @@
 library src.srp_util;
 
 import 'dart:typed_data';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 import 'dart:math' as math;
 
 class SRP6Util {

@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/asn1_encoding_rule.dart';
-import 'package:pointycastle/asn1/asn1_object.dart';
-import 'package:pointycastle/asn1/asn1_parser.dart';
-import 'package:pointycastle/asn1/asn1_tags.dart';
-import 'package:pointycastle/asn1/asn1_utils.dart';
-import 'package:pointycastle/asn1/unsupported_asn1_encoding_rule_exception.dart';
+import 'package:pointycastle_pc335/asn1/asn1_encoding_rule.dart';
+import 'package:pointycastle_pc335/asn1/asn1_object.dart';
+import 'package:pointycastle_pc335/asn1/asn1_parser.dart';
+import 'package:pointycastle_pc335/asn1/asn1_tags.dart';
+import 'package:pointycastle_pc335/asn1/asn1_utils.dart';
+import 'package:pointycastle_pc335/asn1/unsupported_asn1_encoding_rule_exception.dart';
 
 ///
 /// An ASN1 UTF8 String object

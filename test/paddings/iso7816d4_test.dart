@@ -2,7 +2,7 @@
 
 library test.paddings.iso7816d4_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/padding.dart';
 import '../test/src/helpers.dart';

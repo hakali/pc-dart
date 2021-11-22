@@ -4,9 +4,9 @@ library impl.digest.sha384;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/long_sha2_family_digest.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/long_sha2_family_digest.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// Implementation of SHA-384 digest.
 class SHA384Digest extends LongSHA2FamilyDigest implements Digest {

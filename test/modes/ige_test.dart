@@ -2,7 +2,7 @@
 
 library test.modes.ige_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/block_cipher.dart';
 import '../test/src/helpers.dart';

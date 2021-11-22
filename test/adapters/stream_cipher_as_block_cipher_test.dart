@@ -3,7 +3,7 @@
 library test.adapters.stream_cipher_as_block_cipher_test;
 
 import 'package:test/test.dart';
-import 'package:pointycastle/adapters/stream_cipher_as_block_cipher.dart';
+import 'package:pointycastle_pc335/adapters/stream_cipher_as_block_cipher.dart';
 
 import '../test/runners/block_cipher.dart';
 import '../test/src/helpers.dart';

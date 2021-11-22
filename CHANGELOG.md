@@ -166,7 +166,7 @@ decodeBigInt and encodeBigInt.
 * Reorganised file structure.
 
 * Completely new Registry implementation that dynamically loads imported implementations using reflection.
-  It is explained in [this commit](https://github.com/PointyCastle/pointycastle/commit/2da75e5a8d7bdbf95d08329add9f13b9070b75d4).
+  It is explained in [this commit](https://github.com/pointycastle_pc335/pointycastle_pc335/commit/2da75e5a8d7bdbf95d08329add9f13b9070b75d4).
 
 * Migrated from unittest to test package.
 

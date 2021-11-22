@@ -4,12 +4,12 @@ library impl.asymmetric_block_cipher.oeap;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/digests/sha1.dart';
-import 'package:pointycastle/random/fortuna_random.dart';
-import 'package:pointycastle/src/impl/base_asymmetric_block_cipher.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/digests/sha1.dart';
+import 'package:pointycastle_pc335/random/fortuna_random.dart';
+import 'package:pointycastle_pc335/src/impl/base_asymmetric_block_cipher.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// RSAES-OAEP v2.0
 ///

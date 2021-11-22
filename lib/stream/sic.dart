@@ -4,10 +4,10 @@ library impl.stream_cipher.sic;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_stream_cipher.dart';
-import 'package:pointycastle/src/ufixnum.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/base_stream_cipher.dart';
+import 'package:pointycastle_pc335/src/ufixnum.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// Implementation of SIC mode of operation as a [StreamCipher]. This implementation uses the IV as the initial nonce value and
 /// keeps incrementing it by 1 for every block. The counter may overflow and rotate, and that would cause a two-time-pad

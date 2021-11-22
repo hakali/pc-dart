@@ -4,7 +4,7 @@ library src.ufixnum_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_pc335/src/ufixnum.dart';
 import 'package:test/test.dart';
 
 void main() {

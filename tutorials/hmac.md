@@ -22,7 +22,7 @@ This program calculates the HMAC SHA-256:
 import 'dart:convert';
 import 'dart:typed_data';
 
-import "package:pointycastle/export.dart";
+import "package:pointycastle_pc335/export.dart";
 
 Uint8List hmacSha256(Uint8List hmacKey, Uint8List data) {
   final hmac = HMac(SHA256Digest(), 64) // for HMAC SHA-256, block length must be 64

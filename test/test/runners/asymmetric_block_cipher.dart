@@ -3,7 +3,7 @@
 library test.test.asymmetric_block_cipher_tests;
 
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../src/helpers.dart';
 

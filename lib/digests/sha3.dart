@@ -4,9 +4,9 @@ library impl.digest.sha3;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/keccak_engine.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/keccak_engine.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// Implementation of SHA3 digest.
 /// https://csrc.nist.gov/publications/detail/fips/202/final
@@ -41,7 +41,7 @@ class SHA3Digest extends KeccakEngine {
 
   @override
   int doFinal(Uint8List out, int outOff) {
-    // FIPS 202 SHA3 https://github.com/PointyCastle/pointycastle/issues/128
+    // FIPS 202 SHA3 https://github.com/pointycastle_pc335/pointycastle_pc335/issues/128
     absorbBits(0x02, 2);
     squeeze(out, outOff, fixedOutputLength);
     reset();

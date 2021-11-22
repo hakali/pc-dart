@@ -4,7 +4,7 @@ library benchmark.stream.salsa20_benchmark;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../benchmark/stream_cipher_benchmark.dart';
 

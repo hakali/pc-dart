@@ -4,8 +4,8 @@ library impl.adapters.stream_cipher_as_block_cipher;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_block_cipher.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/base_block_cipher.dart';
 
 /// An adapter to convert an [StreamCipher] to a [BlockCipher]
 class StreamCipherAsBlockCipher extends BaseBlockCipher {

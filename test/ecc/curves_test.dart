@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:pointycastle/export.dart';
+import 'package:pointycastle_pc335/export.dart';
 
 void main() {
   group('ECCurve tests', () {

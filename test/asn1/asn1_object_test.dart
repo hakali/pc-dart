@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/asn1_object.dart';
-import 'package:pointycastle/asn1/asn1_tags.dart';
+import 'package:pointycastle_pc335/asn1/asn1_object.dart';
+import 'package:pointycastle_pc335/asn1/asn1_tags.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -4,7 +4,7 @@ library benchmark.benchmark.block_cipher_benchmark;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../benchmark/rate_benchmark.dart';
 

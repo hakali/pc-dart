@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/asn1_utils.dart';
+import 'package:pointycastle_pc335/asn1/asn1_utils.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

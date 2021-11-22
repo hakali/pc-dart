@@ -11,7 +11,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
+import 'package:pointycastle_pc335/export.dart';
 
 Uint8List hmacSha1(Uint8List hmacKey, Uint8List data) {
   final hmac =

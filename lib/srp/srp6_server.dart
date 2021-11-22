@@ -1,8 +1,8 @@
 library impl.srp_server;
 
-import 'package:pointycastle/srp/srp6_standard_groups.dart';
-import 'package:pointycastle/srp/srp6_util.dart';
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_pc335/srp/srp6_standard_groups.dart';
+import 'package:pointycastle_pc335/srp/srp6_util.dart';
+import 'package:pointycastle_pc335/api.dart';
 
 class SRP6Server implements SRPServer {
   late BigInt N;

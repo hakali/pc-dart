@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/impl/entropy.dart';
+import 'package:pointycastle_pc335/src/impl/entropy.dart';
 
 import 'platform_check.dart';
 

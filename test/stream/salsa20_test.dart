@@ -4,7 +4,7 @@ library test.stream.salsa20_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/stream_cipher.dart';
 

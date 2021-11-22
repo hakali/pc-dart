@@ -5,7 +5,7 @@ library test.test.padding_tests;
 import 'dart:typed_data' show Uint8List;
 
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../src/helpers.dart';
 

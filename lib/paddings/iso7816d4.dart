@@ -4,9 +4,9 @@ library impl.padding.iso7816d4;
 
 import 'dart:typed_data' show Uint8List;
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_padding.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/base_padding.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// A padder that adds the padding according to the scheme referenced in
 /// ISO 7814-4 - scheme 2 from ISO 9797-1. The first byte is 0x80, rest is 0x00

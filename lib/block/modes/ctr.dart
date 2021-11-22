@@ -2,10 +2,10 @@
 
 library impl.block_cipher.modes.ctr;
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/adapters/stream_cipher_as_block_cipher.dart';
-import 'package:pointycastle/stream/ctr.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/adapters/stream_cipher_as_block_cipher.dart';
+import 'package:pointycastle_pc335/stream/ctr.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 class CTRBlockCipher extends StreamCipherAsBlockCipher {
   /// Intended for internal use.

@@ -2,7 +2,7 @@
 
 library src.utils_test;
 
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_pc335/src/utils.dart';
 import 'package:test/test.dart';
 
 void main() {

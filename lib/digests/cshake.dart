@@ -4,11 +4,11 @@ library impl.digest.cshake;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/digests/shake.dart';
-import 'package:pointycastle/digests/xof_utils.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/digests/shake.dart';
+import 'package:pointycastle_pc335/digests/xof_utils.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/utils.dart';
 
 ///
 /// implementation of SHAKE based on following KeccakNISTInterface.c from http://keccak.noekeon.org/

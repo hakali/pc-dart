@@ -4,8 +4,8 @@ library test.modes.cfb_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 import '../test/runners/block_cipher.dart';
 import '../test/src/null_block_cipher.dart';

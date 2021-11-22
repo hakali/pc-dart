@@ -1,13 +1,13 @@
 /// Demonstrates different approaches to importing Pointy Castle libraries.
 ///
-/// - import-demo-1.dart - import 'package:pointycastle/pointycastle.dart';
+/// - import-demo-1.dart - import 'package:pointycastle_pc335/pointycastle.dart';
 ///                        can only used registry
-/// - import-demo-2.dart - import 'package:pointycastle/export.dart';
+/// - import-demo-2.dart - import 'package:pointycastle_pc335/export.dart';
 ///                        can use registry and all constructors
-/// - import-demo-3.dart - import 'package:pointycastle/api.dart' plus
+/// - import-demo-3.dart - import 'package:pointycastle_pc335/api.dart' plus
 ///                        individual libraries; can use registry and
 ///                        constructors from individually imported libraries
-/// - import-demo-4.dart - import 'package:pointycastle/api.dart' plus
+/// - import-demo-4.dart - import 'package:pointycastle_pc335/api.dart' plus
 ///                        individual libraries; same as 3, but tries
 ///                        to use the registry for classes that have NOT
 ///                        been individually imported. This should not
@@ -22,8 +22,8 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
 
 void main() {
   useRegistry();

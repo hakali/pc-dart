@@ -4,10 +4,10 @@ library impl.key_derivator.pbkdf2;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/key_derivators/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/impl/base_key_derivator.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/key_derivators/api.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/impl/base_key_derivator.dart';
 
 /// Generator for PBE derived keys and ivs as defined by PKCS 5 V2.0 Scheme 2. This generator uses a SHA-1 HMac as the
 /// calculation function. The document this implementation is based on can be found at:

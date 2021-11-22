@@ -3,7 +3,7 @@
 library test.test.signer_tests;
 
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../src/helpers.dart';
 

@@ -2,10 +2,10 @@ library impl.block_cipher.modes.ccm;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/block/modes/sic.dart';
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/ufixnum.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_pc335/block/modes/sic.dart';
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/src/ufixnum.dart';
+import 'package:pointycastle_pc335/src/utils.dart';
 
 import '../../api.dart';
 import '../../src/impl/base_aead_block_cipher.dart';

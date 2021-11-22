@@ -12,11 +12,11 @@ import 'dart:math';
 import 'dart:typed_data';
 
 // For using the registry:
-//import 'package:pointycastle/pointycastle.dart';
+//import 'package:pointycastle_pc335/pointycastle.dart';
 
 // When not using the registry:
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
 
 //================================================================
 // Test data

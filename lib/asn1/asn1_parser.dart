@@ -1,23 +1,23 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/asn1_object.dart';
-import 'package:pointycastle/asn1/asn1_tags.dart';
-import 'package:pointycastle/asn1/asn1_utils.dart';
-import 'package:pointycastle/asn1/primitives/asn1_bit_string.dart';
-import 'package:pointycastle/asn1/primitives/asn1_boolean.dart';
-import 'package:pointycastle/asn1/primitives/asn1_generalized_time.dart';
-import 'package:pointycastle/asn1/primitives/asn1_ia5_string.dart';
-import 'package:pointycastle/asn1/primitives/asn1_integer.dart';
-import 'package:pointycastle/asn1/primitives/asn1_null.dart';
-import 'package:pointycastle/asn1/primitives/asn1_object_identifier.dart';
-import 'package:pointycastle/asn1/primitives/asn1_octet_string.dart';
-import 'package:pointycastle/asn1/primitives/asn1_printable_string.dart';
-import 'package:pointycastle/asn1/primitives/asn1_sequence.dart';
-import 'package:pointycastle/asn1/primitives/asn1_set.dart';
-import 'package:pointycastle/asn1/primitives/asn1_teletext_string.dart';
-import 'package:pointycastle/asn1/primitives/asn1_utc_time.dart';
-import 'package:pointycastle/asn1/primitives/asn1_utf8_string.dart';
-import 'package:pointycastle/asn1/unsupported_asn1_tag_exception.dart';
+import 'package:pointycastle_pc335/asn1/asn1_object.dart';
+import 'package:pointycastle_pc335/asn1/asn1_tags.dart';
+import 'package:pointycastle_pc335/asn1/asn1_utils.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_bit_string.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_boolean.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_generalized_time.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_ia5_string.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_integer.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_null.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_object_identifier.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_octet_string.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_printable_string.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_sequence.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_set.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_teletext_string.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_utc_time.dart';
+import 'package:pointycastle_pc335/asn1/primitives/asn1_utf8_string.dart';
+import 'package:pointycastle_pc335/asn1/unsupported_asn1_tag_exception.dart';
 
 ///
 /// The ASN1Parser to parse bytes into ASN1 Objects

@@ -2,7 +2,7 @@
 
 library test.key_derivators.scrypt_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/key_derivators.dart';
 import '../test/src/helpers.dart';

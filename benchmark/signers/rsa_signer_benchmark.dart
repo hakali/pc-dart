@@ -2,7 +2,7 @@
 
 library benchmark.signers.rsa_signer_benchmark;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../benchmark/signer_benchmark.dart';
 // ignore: directives_ordering

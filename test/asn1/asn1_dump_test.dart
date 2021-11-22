@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1.dart';
+import 'package:pointycastle_pc335/asn1.dart';
 import 'package:test/test.dart';
 
 void main() {

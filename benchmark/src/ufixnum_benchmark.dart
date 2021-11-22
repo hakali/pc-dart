@@ -4,7 +4,7 @@ library benchmark.api.ufixnum_benchmark;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_pc335/src/ufixnum.dart';
 import '../benchmark/operation_benchmark.dart';
 
 void main() {

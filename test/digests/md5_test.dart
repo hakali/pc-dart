@@ -2,7 +2,7 @@
 
 library test.digests.md5_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/runners/digest.dart';
 

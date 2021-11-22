@@ -4,10 +4,10 @@ library impl.block_cipher.modes.ige;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/impl/base_block_cipher.dart';
-import 'package:pointycastle/src/utils.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/impl/base_block_cipher.dart';
+import 'package:pointycastle_pc335/src/utils.dart';
 
 /// Implementation of IGE mode on top of a [BlockCipher].
 ///

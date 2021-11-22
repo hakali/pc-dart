@@ -2,9 +2,9 @@ library src.srp_verifier_generator;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/srp/srp6_standard_groups.dart';
-import 'package:pointycastle/srp/srp6_util.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/srp/srp6_standard_groups.dart';
+import 'package:pointycastle_pc335/srp/srp6_util.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 /// Generates new SRP verifier for user
 class SRP6VerifierGenerator {

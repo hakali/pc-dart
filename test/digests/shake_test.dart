@@ -2,7 +2,7 @@
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/digests/shake.dart';
+import 'package:pointycastle_pc335/digests/shake.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

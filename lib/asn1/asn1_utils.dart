@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:pointycastle/asn1/asn1_tags.dart';
+import 'package:pointycastle_pc335/asn1/asn1_tags.dart';
 
 ///
 /// Utils class holding different methods to ease the handling of ANS1Objects and their byte representation.

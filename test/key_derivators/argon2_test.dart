@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/key_derivators/argon2.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/key_derivators/argon2.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

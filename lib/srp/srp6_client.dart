@@ -2,9 +2,9 @@ library impl.srp_client;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/srp/srp6_standard_groups.dart';
-import 'package:pointycastle/srp/srp6_util.dart';
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_pc335/srp/srp6_standard_groups.dart';
+import 'package:pointycastle_pc335/srp/srp6_util.dart';
+import 'package:pointycastle_pc335/api.dart';
 
 class SRP6Client implements SRPClient {
   late BigInt N;

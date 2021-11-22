@@ -1,14 +1,14 @@
 library test.srp_test;
 
 import 'dart:typed_data';
-import 'package:pointycastle/srp/srp6_client.dart';
-import 'package:pointycastle/srp/srp6_server.dart';
-import 'package:pointycastle/srp/srp6_standard_groups.dart';
-import 'package:pointycastle/srp/srp6_util.dart';
-import 'package:pointycastle/srp/srp6_verifier_generator.dart';
+import 'package:pointycastle_pc335/srp/srp6_client.dart';
+import 'package:pointycastle_pc335/srp/srp6_server.dart';
+import 'package:pointycastle_pc335/srp/srp6_standard_groups.dart';
+import 'package:pointycastle_pc335/srp/srp6_util.dart';
+import 'package:pointycastle_pc335/srp/srp6_verifier_generator.dart';
 
 import 'package:convert/convert.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -4,10 +4,10 @@ library impl.digest.blake2b;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_digest.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/base_digest.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/ufixnum.dart';
 
 class Blake2bDigest extends BaseDigest implements Digest {
   static final FactoryConfig factoryConfig =

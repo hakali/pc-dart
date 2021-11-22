@@ -4,9 +4,9 @@ library impl.digest.keccak;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/keccak_engine.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/keccak_engine.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// Implementation of Keccak digest.
 class KeccakDigest extends KeccakEngine {

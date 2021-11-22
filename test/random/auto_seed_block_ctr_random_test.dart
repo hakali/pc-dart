@@ -4,7 +4,7 @@ library test.random.auto_seed_block_ctr_random_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import 'package:test/test.dart';
 

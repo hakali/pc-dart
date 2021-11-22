@@ -2,8 +2,8 @@
 
 library test.asymmetric.pkcs1_test;
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 import '../test/runners/asymmetric_block_cipher.dart';
 import '../test/src/null_asymmetric_block_cipher.dart';

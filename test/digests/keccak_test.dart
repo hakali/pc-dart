@@ -4,8 +4,8 @@ library test.digests.keccak_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/digests/keccak.dart';
-import 'package:pointycastle/export.dart';
+import 'package:pointycastle_pc335/digests/keccak.dart';
+import 'package:pointycastle_pc335/export.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

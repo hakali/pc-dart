@@ -12,7 +12,7 @@ To make sure nothing fails, tests and benchmarks for every algorithm are
 provided. The expected results are taken from the Bouncy Castle Java version
 and also from standards, and matched against the results got from Pointy Castle.
 
-This library was adopted from the original project at https://github.com/PointyCastle/pointycastle at the request of the
+This library was adopted from the original project at https://github.com/pointycastle_pc335/pointycastle at the request of the
  authors to help support ongoing development. A list of major contributors is provided at contributors.md
 
 This library is now ported to non-nullable-by-default, a breaking language feature released by the Dart team! See
@@ -33,7 +33,7 @@ algorithmVar.init(parameter);
 ```
 Some algorithms will ask for more than just a parameter object in the initialization step. Once you have identified the
 classes you intend to use in your project, it is recommended that you view the API docs at 
-https://pub.dev/documentation/pointycastle/latest/ to find the specifics of the methods from the 
+https://pub.dev/documentation/pointycastle_pc335/latest/ to find the specifics of the methods from the 
 class you want to use.
 
 In this release, the following algorithms are implemented:
@@ -212,7 +212,7 @@ The "pointycastle.dart" file exports:
 But it does not export any of the algorithm implementation classes.
 
 ``` dart
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastle_pc335/pointycastle.dart";
 ```
 
 With this import, **none** of the implementation classes can be
@@ -238,7 +238,7 @@ The "export.dart" file exports:
 That is, everything!
 
 ``` dart
-import "package:pointycastle/export.dart";
+import "package:pointycastle_pc335/export.dart";
 ```
 
 With this import, **all** of the implementation classes can be
@@ -264,7 +264,7 @@ It does not include the implementations of the interfaces, nor any
 algorithm implementation class.
 
 ``` dart
-import "package:pointycastle/api.dart";
+import "package:pointycastle_pc335/api.dart";
 // additional imports will be needed
 ```
 
@@ -275,15 +275,15 @@ The program can also use the registry.
 For example, the following only works because of the additional imports:
 
 ``` dart
-// In addition to "package:pointycastle/api.dart":
-import "package:pointycastle/digests/sha256.dart";
-import "package:pointycastle/digests/md5.dart"
-import 'package:pointycastle/paddings/pkcs7.dart';
+// In addition to "package:pointycastle_pc335/api.dart":
+import "package:pointycastle_pc335/digests/sha256.dart";
+import "package:pointycastle_pc335/digests/md5.dart"
+import 'package:pointycastle_pc335/paddings/pkcs7.dart';
 
 final sha256 = Digest("SHA-256");
 final md5 = MD5Digest();
 final p = Padding("PKCS7");
-// final s = FortunaRandom(); // not available without 'package:pointycastle/random/fortuna_random.dart'
+// final s = FortunaRandom(); // not available without 'package:pointycastle_pc335/random/fortuna_random.dart'
 ```
 
 ## Tutorials

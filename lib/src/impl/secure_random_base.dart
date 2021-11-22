@@ -4,9 +4,9 @@ library src.impl.random.secure_random_base;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/ufixnum.dart';
-import 'package:pointycastle/src/utils.dart' as utils;
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/ufixnum.dart';
+import 'package:pointycastle_pc335/src/utils.dart' as utils;
 
 /// An utility base implementation of [SecureRandom] so that only [nextUint8] method needs to be
 /// implemented.

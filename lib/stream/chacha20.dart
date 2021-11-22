@@ -2,8 +2,8 @@ library impl.stream_cipher.chacha20;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
 
 import '../api.dart';
 import '../src/impl/base_stream_cipher.dart';

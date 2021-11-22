@@ -4,7 +4,7 @@ library src.impl.base_mac;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_pc335/api.dart';
 
 /// Base implementation of [Mac] which provides shared methods.
 abstract class BaseMac implements Mac {

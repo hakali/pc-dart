@@ -4,10 +4,10 @@ library impl.digest.sha1;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/md4_family_digest.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/ufixnum.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/md4_family_digest.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/ufixnum.dart';
 
 /// Implementation of SHA-1 digest
 class SHA1Digest extends MD4FamilyDigest implements Digest {

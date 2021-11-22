@@ -4,9 +4,9 @@ library impl.secure_random.auto_seed_block_ctr_random;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/random/block_ctr_random.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/random/block_ctr_random.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// An implementation of [SecureRandom] that uses a [BlockCipher] with CTR mode to generate random
 /// values and automatically self reseeds itself after each request for data, in order to achieve

@@ -5,7 +5,7 @@ library test.test.block_cipher_tests;
 import 'dart:typed_data';
 
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../src/helpers.dart';
 

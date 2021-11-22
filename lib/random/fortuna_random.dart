@@ -4,10 +4,10 @@ library impl.secure_random.fortuna_random;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/block/aes_fast.dart';
-import 'package:pointycastle/random/auto_seed_block_ctr_random.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/block/aes_fast.dart';
+import 'package:pointycastle_pc335/random/auto_seed_block_ctr_random.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// An implementation of [SecureRandom] as specified in the Fortuna algorithm.
 class FortunaRandom implements SecureRandom {

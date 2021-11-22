@@ -4,8 +4,8 @@ library test.stream.chacha20_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
-import 'package:pointycastle/stream/chacha20.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
+import 'package:pointycastle_pc335/stream/chacha20.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

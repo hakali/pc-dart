@@ -4,9 +4,9 @@ library impl.block_cipher.modes.ecb;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/impl/base_block_cipher.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/impl/base_block_cipher.dart';
 
 /// Implementation of Electronic Code Book (ECB) mode on top of a [BlockCipher].
 class ECBBlockCipher extends BaseBlockCipher {

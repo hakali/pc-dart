@@ -2,12 +2,12 @@
 
 library test.asymmetric.ec_elgamal_test;
 
-import 'package:pointycastle/asymmetric/ec_elgamal.dart';
-import 'package:pointycastle/ecc/ecc_fp.dart' as fp;
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/asymmetric/ec_elgamal.dart';
+import 'package:pointycastle_pc335/ecc/ecc_fp.dart' as fp;
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
 import 'package:test/test.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 
 import '../test/src/helpers.dart';
 

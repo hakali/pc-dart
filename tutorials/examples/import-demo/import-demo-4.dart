@@ -1,13 +1,13 @@
 /// Demonstrates different approaches to importing Pointy Castle libraries.
 ///
-/// - import-demo-1.dart - import 'package:pointycastle/pointycastle.dart';
+/// - import-demo-1.dart - import 'package:pointycastle_pc335/pointycastle.dart';
 ///                        can only used registry
-/// - import-demo-2.dart - import 'package:pointycastle/export.dart';
+/// - import-demo-2.dart - import 'package:pointycastle_pc335/export.dart';
 ///                        can use registry and all constructors
-/// - import-demo-3.dart - import 'package:pointycastle/api.dart' plus
+/// - import-demo-3.dart - import 'package:pointycastle_pc335/api.dart' plus
 ///                        individual libraries; can use registry and
 ///                        constructors from individually imported libraries
-/// - import-demo-4.dart - import 'package:pointycastle/api.dart' plus
+/// - import-demo-4.dart - import 'package:pointycastle_pc335/api.dart' plus
 ///                        individual libraries; same as 3, but tries
 ///                        to use the registry for classes that have NOT
 ///                        been individually imported. This should not
@@ -21,18 +21,18 @@
 import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/asymmetric/api.dart';
-import 'package:pointycastle/key_derivators/api.dart';
-import 'package:pointycastle/key_generators/api.dart';
-import 'package:pointycastle/src/platform_check/platform_check.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/asymmetric/api.dart';
+import 'package:pointycastle_pc335/key_derivators/api.dart';
+import 'package:pointycastle_pc335/key_generators/api.dart';
+import 'package:pointycastle_pc335/src/platform_check/platform_check.dart';
 
 // Note: these individual libraries are deliberatly not imported
-// import 'package:pointycastle/macs/hmac.dart';
-// import 'package:pointycastle/signers/rsa_signer.dart';
-// import 'package:pointycastle/block/modes/cbc.dart';
-// import 'package:pointycastle/paddings/pkcs7.dart';
-// import 'package:pointycastle/random/fortuna_random.dart';
+// import 'package:pointycastle_pc335/macs/hmac.dart';
+// import 'package:pointycastle_pc335/signers/rsa_signer.dart';
+// import 'package:pointycastle_pc335/block/modes/cbc.dart';
+// import 'package:pointycastle_pc335/paddings/pkcs7.dart';
+// import 'package:pointycastle_pc335/random/fortuna_random.dart';
 
 void main() {
   useRegistry();

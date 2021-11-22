@@ -1,8 +1,8 @@
 library src.registry.impl;
 
-import 'package:pointycastle/digests/sm3.dart';
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/digests/sm3.dart';
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 void registerFactories(FactoryRegistry registry) {
   _registerAsymmetricCiphers(registry);

@@ -40,7 +40,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
-import "package:pointycastle/export.dart";
+import "package:pointycastle_pc335/export.dart";
 
 Uint8List aesCbcEncrypt(Uint8List key, Uint8List iv, Uint8List paddedPlaintext) {
   // Create a CBC block cipher with AES, and initialize with key and IV

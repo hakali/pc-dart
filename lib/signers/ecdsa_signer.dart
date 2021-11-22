@@ -5,10 +5,10 @@ library impl.signer.ecdsa_signer;
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/ecc/api.dart';
-import 'package:pointycastle/src/registry/registry.dart';
-import 'package:pointycastle/src/utils.dart' as utils;
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/ecc/api.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
+import 'package:pointycastle_pc335/src/utils.dart' as utils;
 
 bool _testBit(BigInt i, int n) {
   return (i & (BigInt.one << n)) != BigInt.zero;

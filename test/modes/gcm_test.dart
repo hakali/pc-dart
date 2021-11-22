@@ -4,9 +4,9 @@ library test.modes.gcm_test;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/block/aes_fast.dart';
-import 'package:pointycastle/block/modes/gcm.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/block/aes_fast.dart';
+import 'package:pointycastle_pc335/block/modes/gcm.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 import 'package:test/test.dart';
 
 import '../test/src/helpers.dart';

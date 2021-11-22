@@ -4,9 +4,9 @@ library impl.mac.hmac;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
-import 'package:pointycastle/src/impl/base_mac.dart';
-import 'package:pointycastle/src/registry/registry.dart';
+import 'package:pointycastle_pc335/api.dart';
+import 'package:pointycastle_pc335/src/impl/base_mac.dart';
+import 'package:pointycastle_pc335/src/registry/registry.dart';
 
 /// HMAC implementation based on RFC2104
 ///

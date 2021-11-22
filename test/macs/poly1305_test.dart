@@ -3,9 +3,9 @@
 
 library test.macs.poly1305_test;
 
-import 'package:pointycastle/export.dart';
-import 'package:pointycastle/macs/poly1305.dart';
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastle_pc335/export.dart';
+import 'package:pointycastle_pc335/macs/poly1305.dart';
+import 'package:pointycastle_pc335/pointycastle.dart';
 import 'package:test/test.dart';
 
 import '../test/runners/mac.dart';

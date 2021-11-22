@@ -4,7 +4,7 @@ library src.impl.base_digest;
 
 import 'dart:typed_data';
 
-import 'package:pointycastle/api.dart';
+import 'package:pointycastle_pc335/api.dart';
 
 /// Base implementation of [Digest] which provides shared methods.
 abstract class BaseDigest implements Digest {
